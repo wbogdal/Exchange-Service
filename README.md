@@ -20,7 +20,7 @@ Project is created with:
 ## Setup
 To build this project execute:
 
-* git clone https://github.com/wbogdal/Exchange-Service
+* git clone https://github.com/wbogdal/Exchange-Service.git
 * cd currencyExchange
 * mvn install
 
