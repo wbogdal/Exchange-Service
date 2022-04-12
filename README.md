@@ -26,8 +26,8 @@ To build this project execute:
 
 then to run execute:
 
-*cd target
-*java -jar currencyExchangePlatform-0.0.1-SNAPSHOT.jar
+* cd target
+* java -jar currencyExchangePlatform-0.0.1-SNAPSHOT.jar
 
 
 ## Examples
