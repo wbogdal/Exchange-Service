@@ -1,10 +1,11 @@
-package com.ngoar.currencyExchangePlatform.currencyExchange;
+package com.ngoar.currencyexchangeplatform.currencyexchange;
 
-import com.ngoar.currencyExchangePlatform.currencyExchange.model.CurrencyExchangeResponse;
+import com.ngoar.currencyexchangeplatform.currencyexchange.model.CurrencyExchangeResponse;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,7 @@ import java.math.BigDecimal;
 @RequestMapping("api/v1")
 @RestController
 @Slf4j
+@Validated
 public class CurrencyExchangeController implements CurrencyExchangeApi {
 
     private final CurrencyExchangeService currencyExchangeService;

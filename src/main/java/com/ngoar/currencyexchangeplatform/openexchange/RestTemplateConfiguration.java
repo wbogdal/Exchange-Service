@@ -1,4 +1,4 @@
-package com.ngoar.currencyExchangePlatform.openExchange;
+package com.ngoar.currencyexchangeplatform.openexchange;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
