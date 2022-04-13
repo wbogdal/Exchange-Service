@@ -1,6 +1,6 @@
-package com.ngoar.currencyExchangePlatform.currencyExchange;
+package com.ngoar.currencyexchangeplatform.currencyexchange;
 
-import com.ngoar.currencyExchangePlatform.currencyExchange.model.CurrencyExchangeResponse;
+import com.ngoar.currencyexchangeplatform.currencyexchange.model.CurrencyExchangeResponse;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

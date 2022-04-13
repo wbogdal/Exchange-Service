@@ -1,4 +1,4 @@
-package com.ngoar.currencyExchangePlatform.currencyExchange.model;
+package com.ngoar.currencyexchangeplatform.currencyexchange.model;
 
 import lombok.Builder;
 import lombok.Data;
