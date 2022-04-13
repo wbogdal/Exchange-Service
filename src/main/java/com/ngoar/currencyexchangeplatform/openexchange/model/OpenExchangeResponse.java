@@ -1,4 +1,4 @@
-package com.ngoar.currencyExchangePlatform.openExchange.model;
+package com.ngoar.currencyexchangeplatform.openexchange.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

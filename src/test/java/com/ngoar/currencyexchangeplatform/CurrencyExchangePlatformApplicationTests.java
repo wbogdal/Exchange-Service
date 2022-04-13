@@ -1,4 +1,4 @@
-package com.ngoar.currencyExchangePlatform;
+package com.ngoar.currencyexchangeplatform;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

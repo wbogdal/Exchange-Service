@@ -1,13 +1,12 @@
-package com.ngoar.currencyExchangePlatform.currencyExchange;
+package com.ngoar.currencyexchangeplatform.currencyexchange;
 
-import com.ngoar.currencyExchangePlatform.currencyExchange.model.CurrencyExchangeResponse;
-import com.ngoar.currencyExchangePlatform.openExchange.OpenExchangeClient;
-import com.ngoar.currencyExchangePlatform.openExchange.model.CurrencyDetails;
-import com.ngoar.currencyExchangePlatform.openExchange.model.OpenExchangeResponse;
+import com.ngoar.currencyexchangeplatform.currencyexchange.model.CurrencyExchangeResponse;
+import com.ngoar.currencyexchangeplatform.openexchange.OpenExchangeClient;
+import com.ngoar.currencyexchangeplatform.openexchange.model.CurrencyDetails;
+import com.ngoar.currencyexchangeplatform.openexchange.model.OpenExchangeResponse;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
@@ -21,7 +20,6 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
 @ExtendWith(SpringExtension.class)
-@SpringBootTest
 class CurrencyExchangeServiceTest {
 
     private CurrencyExchangeService currencyExchangeService;
